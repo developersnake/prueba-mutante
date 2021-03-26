@@ -1,0 +1,14 @@
+server:
+  port: 9091
+  servlet:
+    context-path: /prueba-mercadolibre-rest
+spring:
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: create-drop
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/pruebamutante
+    username: postgres
+    password: root
