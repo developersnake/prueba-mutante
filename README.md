@@ -20,3 +20,12 @@ Compilar proyecto
 5. En el IDE ir a maven Run As->Maven build y colocar los goal clean instal y run o ir a la carpeta raiz del proyecto donde
    se encuentra el pom.xml, abrir la consola de comando y ejecutar el comando mvn clean install.
 6. Desde el IDE ejecutar como un projecto spring boot.
+7. Puede testear los end-point con el proyecto de postman adjunto en la raiz de este proyecto el cual se encuentra con el siguiente nombre
+   "MutantMercadoLibre.postman_collection.json".
+8. Los end-point son los siguientes:
+	- Ambiente Local
+		POST: localhost:9091/prueba-mercadolibre-rest/api/mutant/mutant
+		GET:  localhost:9091/prueba-mercadolibre-rest/api/mutant/stats
+	- Ambiente Cloud
+		POST: https://prueba-mutante.herokuapp.com/prueba-mercadolibre-rest/api/mutant/mutant
+		GET:  https://prueba-mutante.herokuapp.com/prueba-mercadolibre-rest/api/mutant/stats
