@@ -22,7 +22,7 @@ public class MutantController {
 	@Autowired
 	MutantService mutantService;
 	
-	@PostMapping("/ismutant")
+	@PostMapping("/mutant")
 	public ResponseEntity<Boolean> isMutant(@RequestBody MutantDto dto) {
 		Boolean isMutant = this.mutantService.isMutant(dto.getDna());
 		return ResponseEntity.status(isMutant ? HttpStatus.OK : HttpStatus.FORBIDDEN).body(isMutant);

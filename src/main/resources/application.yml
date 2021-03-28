@@ -5,10 +5,10 @@ server:
 spring:
   jpa:
     show-sql: true
-    hibernate.ddl-auto: create-drop
+    hibernate.ddl-auto: none
   datasource:
     driver-class-name: org.postgresql.Driver
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/pruebamutante
-    username: postgres
-    password: root
+    url: jdbc:postgresql://ec2-54-198-252-9.compute-1.amazonaws.com:5432/dae1uatghs3tuh
+    username: sqnwciknctawjh
+    password: e496654b4bbba9632ffd96c76dc53f458e968441edaff517156e01be2dfe266e
